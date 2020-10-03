@@ -1,0 +1,74 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imgs/back6.jpg);
+    background-size: cover;
+    width: 100%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+form {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    color: #fff;
+    border: 2px dashed #b7b9e8;
+}
+
+form div {margin-bottom: 25px;}
+
+form label {
+    display: block;
+    color: #b7b9e8;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+form input[type="date"] , input[type="text"] {
+    margin-top: 8px;
+    padding: 3px;
+    background-color:  transparent;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a0a0a0;
+    font-size: 16px;
+}
+
+form input[type="radio"] {margin-top: 8px;}
+
+form input[type="submit"] {
+    position: relative;
+    left: 35%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: 1px solid #b7b9e8;
+    padding: 8px 55px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    color: #666;
+    background-color: #C7C7C7;
+    cursor: pointer;
+}
